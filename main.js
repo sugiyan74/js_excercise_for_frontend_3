@@ -19,8 +19,8 @@ console.log(mainElement);
  */
 const countOfList = 5;
 for(let i = 0; i < countOfList; i++) {
-    let liElelement = document.createElement('li');
-    let num = i + 1;
+    const liElelement = document.createElement('li');
+    const num = i + 1;
     liElelement.textContent = num +'. アイテム' + num;
     ulElement.appendChild(liElelement);
 }
